@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+#root > main > div:nth-child(1) > h1{
+  text-align: center;
+}
+#root > main > div:nth-child(1) > div{
+  margin: auto;
+  margin-top: 1em;
+}
+#root > main > div:nth-child(1) > form > div.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded{
+  margin-top: 1em;
+}
+#root > main > div:nth-child(1) > form > div:nth-child(6){
+  margin-top: 1em;
+  text-align: center;
+}
